@@ -14,4 +14,4 @@
   (run* [q]
       (derivo expression variable q)))
 
-(differentiate [:pow 5 :X] :X)
+(simplify (first (differentiate [:sum [:mul 4 [:pow 2 :X]] [:mul 5 :Y]] :X)))
