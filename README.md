@@ -1,0 +1,4 @@
+equations
+=========
+
+Equation solving exercices
